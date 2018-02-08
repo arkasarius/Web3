@@ -14,7 +14,16 @@ Proyecto basado en ..... TODO
 
 ### Recursos Usados
 * Git
-* Text editor
+* Node.js
+* Cordova
+* Github Desktop
+* Atom
+
+### Desglose Horas
+* Arquitectura Proyecto : 2h
+* Diseño: 0h
+* Programación: 0h
+
 
 ## Funciones
 
