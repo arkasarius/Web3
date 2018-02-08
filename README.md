@@ -3,15 +3,20 @@
 APP web 3
 By Roger Ordoñez Brumos
 
-## Installation
+###Descripción
+Proyecto basado en ..... TODO
 
-### Requirements
+## Arquitectura
+
+### APIS
+* API 1
+* API 2
+
+### Recursos Usados
 * Git
 * Text editor
 
-
-
-## Usage
+## Funciones
 
 ```javas
 import foobar
@@ -21,15 +26,11 @@ foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Development
+## Estado de la APP
 ```
 TODO CODE
 More CODE
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
-## License
+## Licencia
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
