@@ -32,4 +32,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## License
-[CC-NC](https://creativecommons.org/licenses/by-nc/3.0/)
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
