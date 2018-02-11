@@ -7,7 +7,7 @@ By Roger Ordoñez Brumos
 La app de iCanWalk creará un "punto de encuentro" entre oferta y demanda de actividades del sector canino, ayudando a los negocios emergentes a darse a conocer al consumidor final y por otro lado, permitir a los propietarios de perros descubrir nuevos espacios para disfrutar en compañía de sus mejores amigos de cuatro patas así como contactar con gente con sus intereses.
 
 Cada vez más hogares deciden ampliar su familia con una mascota, hasta el punto que actualmente hay más de 150000 perros tan sólo en la ciudad de Barcelona.
-En paralelo, el sector del ocio PetFriendly a ido creciendo, desde restaurantes y bares que aceptan perros, pasando por el nacimiento de clubes de senderismo caninos, hasta empresas que diseñan experiencias exclusivas para hacer con perros.
+En paralelo, el sector del ocio PetFriendly ha ido creciendo, desde restaurantes y bares que aceptan perros, pasando por el nacimiento de clubes de senderismo caninos, hasta empresas que diseñan experiencias exclusivas para hacer con perros.
 
 Aunque el creciente volumen de ofertas exista, el usuario final desconoce todo el abanico de posibilidades que el mercado le ofrece y los pequeños negocios tienen grandes dificultades para darse a conocer y llenar las actividades que organizan, es por eso que nace la idea de la app de iCanWalk.
 
