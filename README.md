@@ -32,7 +32,7 @@ Recibirá también estadísticas de sus actividades, pudiendo ver qué interesan
 * Atom
 
 ### Desglose Horas
-* Arquitectura Proyecto : 2h
+* Arquitectura Proyecto : 3h
 * Diseño: 0h
 * Programación: 0h
 
