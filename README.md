@@ -21,7 +21,7 @@ Recibirá también estadísticas de sus actividades, pudiendo ver qué interesan
 ## Arquitectura
 
 ### APIS
-* API 1
+* [AMAZON](https://docs.aws.amazon.com/AWSECommerceService/latest/DG/Welcome.html)
 * API 2
 
 ### Recursos Usados
