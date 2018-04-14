@@ -22,7 +22,9 @@ Recibirá también estadísticas de sus actividades, pudiendo ver qué interesan
 
 ### APIS
 * [AMAZON](https://docs.aws.amazon.com/AWSECommerceService/latest/DG/Welcome.html)
-* API 2
+* paypal
+* google maps
+*
 
 ### Recursos Usados
 * Git
@@ -32,9 +34,9 @@ Recibirá también estadísticas de sus actividades, pudiendo ver qué interesan
 * Atom
 
 ### Desglose Horas
-* Arquitectura Proyecto : 3h
-* Diseño: 0h
-* Programación: 0h
+* Arquitectura Proyecto : 30h
+* Diseño: 3h
+* Programación: 4h
 
 
 ## Funciones

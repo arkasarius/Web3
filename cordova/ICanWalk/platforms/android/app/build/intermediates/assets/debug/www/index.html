@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+
+    <!--meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"-->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/vue-material.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css">
+    <!--link rel="stylesheet" type="text/css" href="style/default.css"-->
+    <!--link rel="stylesheet" type="text/css" href="style/material_min.css"-->
+
+
+    <script src="libs/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+    <script src="libs/vuematerial.js"></script>
+    <script src="js/components/simple_list.js"></script>
+    <script src="js/components/settings.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!--<script src="js/components/mail_list.js"></script>-->
+    <!--<script src="js/components/mail_item.js"></script>-->
+
+
+  </head>
+
+  <body onload="init()">
+    <div  class="app-viewport" id="app">
+
+
+
+        <md-toolbar class="md-primary"> <!-- inicio toolbar de la app-->
+            <md-button class="md-icon-button" @click="showNavigation = true">
+                <md-icon>menu</md-icon>
+            </md-button>
+
+                <h3 class="md-title" style="flex: 1">IcanWalk</h3>
+                <md-button class="md-icon-button">
+                    <md-icon>more_vert</md-icon>
+                </md-button>
+        </md-toolbar> <!-- fin toolbar de la app-->
+
+        <md-drawer :md-active.sync="showNavigation" ref="sidebar"> <!-- inicio panel lateral-->
+              <md-toolbar class="md-primary" md-elevation="0">
+                <span class="md-title">Menu</span>
+              </md-toolbar>
+
+              <md-list>
+                <md-list-item @click="goToInbox()">
+                  <md-icon>account_circle</md-icon>
+                  <span class="md-list-item-text">Perfil</span>
+                </md-list-item>
+
+                <md-list-item @click="goToSettings()">
+                  <md-icon>map</md-icon>
+                  <span class="md-list-item-text">Mapa</span>
+                </md-list-item>
+
+                <md-list-item @click="goToSimpleList()">
+                  <md-icon>shopping_cart</md-icon>
+                  <span class="md-list-item-text">Tienda</span>
+                </md-list-item>
+
+                <md-list-item>
+                  <md-icon>today</md-icon>
+                  <span class="md-list-item-text">Calendario</span>
+                </md-list-item>
+
+                <md-list-item>
+                  <md-icon>contacts</md-icon>
+                  <span class="md-list-item-text">Contactos</span>
+                </md-list-item>
+
+                <md-list-item>
+                  <md-icon>settings</md-icon>
+                  <span class="md-list-item-text">Configuración</span>
+                </md-list-item>
+
+                <md-list-item>
+                  <md-icon>feedback</md-icon>
+                  <span class="md-list-item-text">Feedback</span>
+                </md-list-item>
+
+
+              </md-list>
+        </md-drawer> <!-- fin panel lateral-->
+
+
+
+      <main class="main-content"> <!-- aqui el router inyecta las paginas-->
+        <div>
+          <router-view></router-view>
+        </div>
+
+
+      </main>
+
+    </div>
+
+
+		<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+  </body>
+</html>
