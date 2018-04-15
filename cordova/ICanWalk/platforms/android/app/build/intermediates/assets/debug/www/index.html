@@ -51,6 +51,12 @@
 
               <md-list>
                 <md-list-item @click="goToInbox()">
+                  <md-icon>home</md-icon>
+                  <span class="md-list-item-text">Inicio</span>
+                </md-list-item>
+
+              <md-list>
+                <md-list-item @click="goToInbox()">
                   <md-icon>account_circle</md-icon>
                   <span class="md-list-item-text">Perfil</span>
                 </md-list-item>
@@ -65,22 +71,22 @@
                   <span class="md-list-item-text">Tienda</span>
                 </md-list-item>
 
-                <md-list-item>
+                <md-list-item @click="goToCalendario()">
                   <md-icon>today</md-icon>
                   <span class="md-list-item-text">Calendario</span>
                 </md-list-item>
 
-                <md-list-item>
+                <md-list-item @click="goToContactos()">
                   <md-icon>contacts</md-icon>
                   <span class="md-list-item-text">Contactos</span>
                 </md-list-item>
 
-                <md-list-item>
+                <md-list-item @click="goToConfiguracion()">
                   <md-icon>settings</md-icon>
                   <span class="md-list-item-text">Configuración</span>
                 </md-list-item>
 
-                <md-list-item>
+                <md-list-item @click="goToFeedback()">
                   <md-icon>feedback</md-icon>
                   <span class="md-list-item-text">Feedback</span>
                 </md-list-item>

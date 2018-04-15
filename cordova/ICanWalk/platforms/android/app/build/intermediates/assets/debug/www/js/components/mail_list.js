@@ -1,8 +1,8 @@
-const MailListTemplate = {props: [], 
+const MailListTemplate = {props: [],
                       template:`
     <md-list class=""  id="maillist">
-            <div 
-                is="mail-item" 
+            <div
+                is="mail-item"
                 v-for="(shop, index) in tiendas"
                 v-bind:key="shop.google_id"
                 v-bind:name="shop.name"
