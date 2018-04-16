@@ -19,6 +19,14 @@
     <script src="libs/vuematerial.js"></script>
     <script src="js/components/simple_list.js"></script>
     <script src="js/components/settings.js"></script>
+    <script src="js/components/calendario.js"></script>
+    <script src="js/components/configuracion.js"></script>
+    <script src="js/components/contactos.js"></script>
+    <script src="js/components/feedback.js"></script>
+    <script src="js/components/inicio.js"></script>
+    <script src="js/components/mapa.js"></script>
+    <script src="js/components/perfil.js"></script>
+    <script src="js/components/tienda.js"></script>
     <script src="js/main.js"></script>
 
 
@@ -50,23 +58,23 @@
               </md-toolbar>
 
               <md-list>
-                <md-list-item @click="goToInbox()">
+                <md-list-item @click="goToInicio()">
                   <md-icon>home</md-icon>
                   <span class="md-list-item-text">Inicio</span>
                 </md-list-item>
 
               <md-list>
-                <md-list-item @click="goToInbox()">
+                <md-list-item @click="goToPerfil()">
                   <md-icon>account_circle</md-icon>
                   <span class="md-list-item-text">Perfil</span>
                 </md-list-item>
 
-                <md-list-item @click="goToSettings()">
+                <md-list-item @click="goToMapa()">
                   <md-icon>map</md-icon>
                   <span class="md-list-item-text">Mapa</span>
                 </md-list-item>
 
-                <md-list-item @click="goToSimpleList()">
+                <md-list-item @click="goToTienda()">
                   <md-icon>shopping_cart</md-icon>
                   <span class="md-list-item-text">Tienda</span>
                 </md-list-item>

@@ -2,7 +2,7 @@ Vue.use(VueMaterial.default);
 Vue.use(VueRouter);
 Vue.material.setCurrentTheme('about');
 function init(){
-  const routes = [
+const routes = [
                 //{path: '/inbox', name: 'inbox', component: MailListTemplate},
             {path: '/settings', name: 'settings',  component: SettingsTemplate}
             ,{path: '/simplelist', name: 'simplelist', component: SimpleListTemplate}
