@@ -1,4 +1,4 @@
-#Mon Apr 16 12:30:45 CEST 2018
+#Mon Apr 16 13:08:50 CEST 2018
 base.0=R\:\\projects\\cordova\\Web3\\cordova\\ICanWalk\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
 file.0=R\:\\projects\\cordova\\Web3\\cordova\\ICanWalk\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

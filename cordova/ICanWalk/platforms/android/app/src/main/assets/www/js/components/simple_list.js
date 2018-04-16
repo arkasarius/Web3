@@ -1,5 +1,5 @@
 
-const SimpleListTemplate = {props: [], 
+const SimpleListTemplate = {props: [],
                           data: function() {
                                   return {
                                     shoppingItems: [

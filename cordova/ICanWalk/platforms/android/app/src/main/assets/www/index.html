@@ -56,17 +56,25 @@
               <md-toolbar class="md-primary" md-elevation="0">
                 <span class="md-title">Menu</span>
               </md-toolbar>
+<md-card>
+  <md-card-media>
+    <img src="imgres/a.jpg" alt="People">
+  </md-card-media>
 
-              <md-list>
-                <md-list-item @click="goToInicio()">
-                  <md-icon>home</md-icon>
-                  <span class="md-list-item-text">Inicio</span>
-                </md-list-item>
+  <md-card-header>
+    <md-avatar class="md-avatar-icon md-large">R</md-avatar>
+    <div class="md-title">Roger Ordoñez brumós</div>
+    <div class="md-subhead">Admin</div>
+  </md-card-header>
 
-              <md-list>
-                <md-list-item @click="goToPerfil()">
-                  <md-icon>account_circle</md-icon>
-                  <span class="md-list-item-text">Perfil</span>
+  <md-card-actions>
+    <md-button @click="goToPerfil()">Mi perfil</md-button>
+  </md-card-actions>
+</md-card>
+                <md-list>
+                  <md-list-item @click="goToInicio()">
+                    <md-icon>home</md-icon>
+                    <span class="md-list-item-text">Inicio</span>
                 </md-list-item>
 
                 <md-list-item @click="goToMapa()">
