@@ -79,5 +79,5 @@ const routes = [
       }).$mount('#app');
 
     //router.push('settings');
-    router.push({ name: 'settings'})
+    router.push('inicio')
 }
