@@ -1,4 +1,4 @@
-const SettingsTemplate = {props: [], 
+const SettingsTemplate = {props: [],
                           data: () => ({
         radio: false,
         active: false,
