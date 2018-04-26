@@ -11,6 +11,7 @@ methods:{
   testdata: function () {
     var firebaseRef = firebase.database().ref();
     firebaseRef.child("text").set("adeu");
+    firebaseRef.set(this.$data);
   }
 },
 data: () => ({
