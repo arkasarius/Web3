@@ -7,6 +7,10 @@ methods:{
   },
   goToTienda: function(){
       this.$router.push('tienda');
+  },
+  testdata: function () {
+    var firebaseRef = firebase.database().ref();
+    firebaseRef.child("text").set("adeu");
   }
 },
 data: () => ({
@@ -46,7 +50,7 @@ template:
      </md-card-header>
 
      <md-card-actions v-for="a in events">
-       <md-button><p>{{a}}</p></md-button>
+       <md-button @click="testdata()"><p>{{a}}</p></md-button>
      </md-card-actions>
 
      <md-card-content>
