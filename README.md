@@ -24,7 +24,8 @@ Recibirá también estadísticas de sus actividades, pudiendo ver qué interesan
 * [AMAZON](https://docs.aws.amazon.com/AWSECommerceService/latest/DG/Welcome.html)
 * paypal
 * google maps
-*
+* Firebase
+
 
 ### Recursos Usados
 * Git
@@ -35,8 +36,8 @@ Recibirá también estadísticas de sus actividades, pudiendo ver qué interesan
 
 ### Desglose Horas
 * Arquitectura Proyecto : 30h
-* Diseño: 3h
-* Programación: 4h
+* Diseño: 15h
+* Programación: 20h
 
 
 ## Funciones
