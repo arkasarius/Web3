@@ -37,7 +37,7 @@ Recibirá también estadísticas de sus actividades, pudiendo ver qué interesan
 ### Desglose Horas
 * Arquitectura Proyecto : 30h
 * Diseño: 15h
-* Programación: 20h
+* Programación: 22h
 
 
 ## Funciones
