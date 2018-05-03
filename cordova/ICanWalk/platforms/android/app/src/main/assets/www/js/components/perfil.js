@@ -11,7 +11,10 @@ methods:{
   testdata: function () {
     var firebaseRef = firebase.database().ref();
     firebaseRef.child("text").set("adeu");
-    firebaseRef.set(this.$data);
+    var a=this.$data.correo;
+    a=a.replace(/\./g,'%2E');
+    console.log(a);
+    firebaseRef.child("users").child(a).set(this.$data);
   }
 },
 data: () => ({
