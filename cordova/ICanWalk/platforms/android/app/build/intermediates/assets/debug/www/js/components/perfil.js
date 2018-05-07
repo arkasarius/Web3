@@ -60,7 +60,7 @@ template:
      <md-card-content>
        <p>{{bio}}</p>
      </md-card-content>
-   </md-card>
+</md-card>
 
 
 {{nom}}

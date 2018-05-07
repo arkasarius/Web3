@@ -2,6 +2,6 @@ const MapaTemplate = {
 props: [],
 template:
 `
-<p>MapaTemplate</p>
+<iframe src="https://www.google.com/maps/d/embed?mid=1_8sHHzjlcvFL2vVvKefNhRoPEHmNVwzP" style="position: absolute; height: 100%; width: 100%; border: none"></iframe>
 `
 };
