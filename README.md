@@ -35,9 +35,9 @@ Recibirá también estadísticas de sus actividades, pudiendo ver qué interesan
 * Atom
 
 ### Desglose Horas
-* Arquitectura Proyecto : 32h
-* Diseño: 17h
-* Programación: 24h
+* Arquitectura Proyecto : 34h
+* Diseño: 19h
+* Programación: 26h
 
 
 ## Funciones
