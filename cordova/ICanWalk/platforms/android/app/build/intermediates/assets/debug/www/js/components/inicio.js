@@ -4,6 +4,11 @@ template:
 `
 <md-list>
 
+<md-list-item @click="goToEventos()">
+  <md-icon>list</md-icon>
+  <span class="md-list-item-text">Eventos</span>
+</md-list-item>
+
 <md-list-item @click="goToMapa()">
   <md-icon>map</md-icon>
   <span class="md-list-item-text">Mapa</span>
@@ -54,6 +59,9 @@ methods:{
   },
   goToFeedback: function(){
       this.$router.push('feedback');
+  },
+  goToEventos: function(){
+      this.$router.push('eventos');
   }
 }
 };

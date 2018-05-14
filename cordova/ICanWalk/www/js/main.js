@@ -14,6 +14,7 @@ const routes = [
             ,{path: '/contactos', name: 'contactos', component: ContactosTemplate}
             ,{path: '/configuracion', name: 'configuracion', component: ConfiguracionTemplate}
             ,{path: '/feedback', name: 'feedback', component: FeedbackTemplate}
+            ,{path: '/eventos', name: 'eventos', component: EventosTemplate}
             ];
 
         const router = new VueRouter({
@@ -73,6 +74,10 @@ const routes = [
             goToFeedback: function(){
               this.showNavigation = false;
               router.push('feedback');
+            },
+            goToEventos: function(){
+              this.showNavigation = false;
+              router.push('eventos');
             }
         }
 
