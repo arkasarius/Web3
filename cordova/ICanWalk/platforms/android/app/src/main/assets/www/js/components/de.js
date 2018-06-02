@@ -63,7 +63,10 @@ evento:{
 methods:
 {
   apuntarse: function(){
-    alert("apuntado");
+    //alert("apuntado");
+    var firebaseRef = firebase.database().ref();
+    firebaseRef.child("users").child("roger%2Eordonez%2Ebrumos@gmail%2Ecom").child("events").child("0").set("Degustación de helados");
+    this.$router.push('inicio');
   }
 },
 

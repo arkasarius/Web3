@@ -63,7 +63,11 @@ evento:{
 methods:
 {
   apuntarse: function(){
-    alert("apuntado");
+    //alert("apuntado");
+    var firebaseRef = firebase.database().ref();
+    firebaseRef.child("users").child("roger%2Eordonez%2Ebrumos@gmail%2Ecom").child("events").child("0").set("Degustación de helados");//a bit hardcoded but works as intended
+    //es tindria que modificar per uan referencia del usuari en un entorn real.
+    this.$router.push('inicio');
   }
 },
 

@@ -10,11 +10,14 @@ methods:{
   },
   testdata: function () {
     var firebaseRef = firebase.database().ref();
-    firebaseRef.child("text").set("adeu");
+    //firebaseRef.child("text").set("adeu");
     var a=this.$data.correo;
     a=a.replace(/\./g,'%2E');
     console.log(a);
     firebaseRef.child("users").child(a).set(this.$data);
+  },
+  jump: function(){
+    this.$router.push('de');
   }
 },
 data: () => ({
@@ -24,9 +27,7 @@ cognom1: 'Ordoñez',
 cognom2: 'Brumós',
 correo: 'roger.ordonez.brumos@gmail.com',
 events:[
-  'id1',
-  'id2',
-  'id3'
+  'Degustación de helados'
 ],
 gossos:[
   'idg1',
@@ -37,7 +38,7 @@ contactes:[
   'correo2'
 ],
 empresa: false,
-bio: 'Hola soc el que programa la app'
+bio: 'Esto es una pequeña Bio de usuario donde se puede poner información de todo tipo.'
 
 }),
 
@@ -53,31 +54,21 @@ template:
        <div class="md-subhead"><p>{{correo}}</p></div>
      </md-card-header>
 
-     <md-card-actions v-for="a in events">
-       <md-button @click="testdata()"><p>{{a}}</p></md-button>
-     </md-card-actions>
-
      <md-card-content>
        <p>{{bio}}</p>
      </md-card-content>
+
+     <md-card-content>
+     <md-list>
+     <md-list-item v-for="a in events">
+       <md-button @click="jump"><p>{{a}}</p></md-button>
+     </md-list-item>
+     </md-list>
+     </md-card-content>
+
+
 </md-card>
 
-
-{{nom}}
-{{cognom1}}
-{{cognom2}}
-{{correo}}
-<li v-for="a in events">
-     <p>{{a}}</p>
-</li>
-<li v-for="a in gossos">
-     {{a}}
-</li>
-<li v-for="a in contactes">
-     {{a}}
-</li>
-{{empresa}}
-{{bio}}
 
 `
 };

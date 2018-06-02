@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jun 02 19:37:35 CEST 2018
+#Sat Jun 02 20:17:01 CEST 2018
 5.base=R\:\\projects\\cordova\\Web3\\cordova\\ICanWalk\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 42.base=R\:\\projects\\cordova\\Web3\\cordova\\ICanWalk\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 32.set=ASSET
