@@ -15,6 +15,7 @@ const routes = [
             ,{path: '/configuracion', name: 'configuracion', component: ConfiguracionTemplate}
             ,{path: '/feedback', name: 'feedback', component: FeedbackTemplate}
             ,{path: '/eventos', name: 'eventos', component: EventosTemplate}
+            ,{path: '/de', name: 'de', component: DeTemplate}
             ];
 
         const router = new VueRouter({
